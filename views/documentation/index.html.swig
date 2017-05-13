@@ -26,12 +26,6 @@
           {# If items to be displayed in type #}
           {% if items.length > 0 %}
             <section class="main__sub-section" id="{{ group_name }}-{{ type }}">
-              <h2 class="main__heading--secondary">
-                <div class="container">
-                  {{ (type + 's') }}
-                </div>
-              </h2>
-
               {# Loop over the items #}
               {% for item in items %}
                 {% include "../includes/partials/item.html.swig" with context %}

@@ -9,11 +9,5 @@
 <meta property="og:title" content="{{ project_title }} - SassDoc" />
 <meta property="og:type" content="website" />
 
-{% if package.description %}
-<meta property="og:description" content="{{ package.description | safe }}" />
-{% else %}
-<meta property="og:description" content="Release the docs!" />
-{% endif %}
-
 <!-- Thanks to Sass-lang.com for the icons -->
 <link href="{{ shortcutIcon.url }}" rel="shortcut icon">
